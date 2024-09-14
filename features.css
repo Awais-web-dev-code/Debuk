@@ -1,0 +1,129 @@
+/* features_hero-section starts from here */
+
+.hero-section {
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section p {
+    padding: 0px 80px;
+}
+
+@media (max-width: 933px) {
+    .hero-section {
+        padding: 60px 40px;
+    }
+    .hero-section h1 {
+        white-space: wrap;
+    }
+    
+}
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px;
+    }
+    .hero-section p {
+        padding: 0px 20px;
+    }
+}
+
+
+
+@media (max-width: 460px) {
+    .hero-section {
+        padding: 40px 10px;
+    }
+    .hero-section p {
+        padding: 0px;
+    }
+}
+
+
+
+
+/* feature-sections 1 starts from here */
+
+.feature-sections {
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    padding: 50px 100px;
+
+}
+
+.feature-Col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-colText-right {
+    padding-left: 30px;
+}
+.feature-colText-left {
+    padding-right: 30px;
+}
+.feature-Col_img {
+    Width: 100%;
+    /* Height: 302px; */
+    background-color: #FAE5E8;
+    border: 1px solid #f5bbc3;
+    border-radius: 10px;
+}
+.feature-1 {
+    background-color: #FAE5E8;
+    border: 1px solid #f5bbc3;
+}
+.feature-2 {
+    background-color: #E8F2ED;
+    border: 1px solid #b3e4cb;
+}
+.feature-3 {
+    background-color: #E6FAFD;
+    border: 1px solid #b1e5ec;
+}
+.feature-4 {
+    background-color: #FFF9E6;
+    border: 1px solid #e6dab2;
+}
+
+@media (max-width: 935px) {
+    .feature-sections {
+        padding: 50px 50px ;
+    }
+    .feature-colText-left p , .feature-colText-right p {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .feature-sections {
+        padding: 40px;
+        flex-direction: column;
+    }
+    .feature-Col {
+        width: 100%;
+        /* margin-top: 10px; */
+    }
+    .feature-colText-right , .feature-colText-left {
+        padding-left: 0px;
+    }
+    .feature-colText-left p , .feature-colText-right p {
+        line-height: 1.5rem;
+    }
+    .feature-colText-right a , .feature-colText-left a {
+        margin-top: 0px;
+    }
+    .feature-Col_img {
+        margin-top: 20px;
+    } 
+}
+@media (max-width: 460px) {
+    .feature-sections {
+        padding: 40px 10px;
+        flex-direction: column;
+    }
+}

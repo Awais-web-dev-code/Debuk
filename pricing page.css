@@ -1,0 +1,134 @@
+
+/* pricing section starts from here */
+
+.pricing-section {
+    height: 100%;
+    padding: 80px 20px;
+}
+.pricing-grid-section {
+    display: grid;
+    grid-template-rows: repeat(1 , 1fr);
+    grid-template-columns: repeat(4 ,1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+.pricing-card {
+    border: 1px solid var(--grey-border);
+    height: auto;
+    border-radius: 15px;
+    padding: 25px;
+}
+.dollar-para {
+    font-weight: 500;
+    font-family: indivisibleBold ;
+    font-size: 40px;
+    color: var(--Dark-Gray-heading-text);
+    margin-top: 40px;
+}
+
+.pricing-card li {
+    font-family: indivisibleRegular;
+    font-weight: 400px;
+    font-size: 16px;
+    color: var(--Dark-Gray-heading-text);
+    margin-top: 10px;
+    line-height: 24px;
+}
+.pricing-card button {
+    margin-top: 10px;
+    padding: 10px 57px;
+    font-family: indivisibleMedium;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    color: var(--Dark-Gray-heading-text);
+    border: 1px solid var(--grey-border);
+    border-radius: 15px;
+}
+.pricing-card .para-bold {
+    margin-top: 30px;
+}
+.pricing-card-3 {
+    border: 1px solid var(--purple-accent);
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+}
+.pricing-card-3 button {
+    background-color: var(--purple-accent);
+    color: white;
+    transition: background-color 0.4s ease, color 0.5s ease;
+}
+.pricing-card-3 button:hover {
+    background-color: var( --purple-accent-dark);
+    color: var(--Dark-Gray-heading-text);
+}  
+
+@media (max-width: 1207px) {
+    .pricing-grid-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 575px) {
+    .pricing-grid-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.compare-section {
+    padding: 80px 100px;
+}
+
+
+
+@media (max-width: 769px) {
+    .compare-section {
+        padding: 80px 10px;
+    }
+}
+@media (max-width: 460px) {
+    .compare-section {
+        padding: 80px 0px;
+        overflow-x: scroll;
+    }
+    table  {
+        padding: 0px;
+    }
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+  }
+  th, td {
+    padding: 10px;
+  }
+  td {
+    font-family: indivisibleRegular;
+    font-weight: 400px;
+    font-size: 16px;
+    color: var(--Dark-Gray-heading-text);
+    margin-top: 10px;
+    line-height: 24px;
+  }
+  th {
+    text-align: left;
+  }
+  .center {
+    text-align: center;
+  }
+  tr  {  border-bottom: 1px solid var(--grey-border);
+  }
+  table .para-bold {
+    color: #5A5A5A;
+    font-weight: 400;
+  }

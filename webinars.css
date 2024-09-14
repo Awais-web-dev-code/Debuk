@@ -1,0 +1,162 @@
+.webinar-section {
+    padding: 80px 100px;
+}
+
+.webninar-grid-div {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+}
+
+.webinar-item {
+    border: 1px solid var(--grey-border);
+    height: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px rgba(133, 133, 133, 0.25);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.webinar-item:hover {
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 896px) {
+    .webinar-section {
+        padding: 80px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .webninar-grid-div {
+        grid-template-rows: repeat(22, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.div-1 {
+    background: url(images/webninar-1.png);
+}
+
+.div-2 {
+    background: url(images/webninar-2.png);
+}
+
+.div-3 {
+    background: url(images/webninar-3.png);
+}
+
+.div-4 {
+    background: url(images/webninar-4.png);
+}
+
+.div-5 {
+    background: url(images/webninar-5.png);
+}
+
+.div-6 {
+    background: url(images/webninar-6.png);
+}
+
+.div-7 {
+    background: url(images/webninar-7.png);
+}
+
+.div-8 {
+    background: url(images/webninar-8.png);
+}
+
+.div-9 {
+    background: url(images/webninar-9.png);
+}
+
+.div-10 {
+    background: url(images/webninar-10.png);
+}
+
+.div-11 {
+    background: url(images/webninar-11.png);
+}
+
+.div-12 {
+    background: url(images/webninar-12.png);
+}
+
+.div-13 {
+    background: url(images/webninar-13.png);
+}
+
+.div-14 {
+    background: url(images/webninar-14.png);
+}
+
+.div-15 {
+    background: url(images/webninar-15.png);
+}
+
+.div-16 {
+    background: url(images/webninar-16.png);
+}
+
+.div-17 {
+    background: url(images/webninar-17.png);
+}
+
+.div-18 {
+    background: url(images/webninar-18.png);
+}
+
+.div-19 {
+    background: url(images/webninar-19.png);
+}
+
+.div-20 {
+    background: url(images/webninar-20.png);
+}
+
+.webinar-img-div {
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.webinar-text-div {
+    padding: 20px;
+    height: auto;
+    background-color: var(--White);
+}
+
+@media (max-width: 1205px) {
+    .webninar-grid-div {
+        grid-template-rows: repeat(11, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .webinar-img-div {
+        height: 250px;
+    }
+}
+
+@media (max-width: 668px) {
+    .webinar-img-div {
+        height: 180px;
+    }
+}
+
+@media (max-width: 570px) {
+    .webninar-grid-div {
+        grid-template-rows: repeat(20, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .webinar-img-div {
+        height: 260px;
+    }
+}
